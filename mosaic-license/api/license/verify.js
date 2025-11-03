@@ -1,5 +1,6 @@
-import { supabase } from "./_supabase.js";
-import { hashLicense } from "./_crypto.js";
+// api/license/verify.js
+import { supabase } from '../../lib/_supabase.js';
+import { hashLicense } from '../../lib/_crypto.js';
 
 async function readJson(req) {
   return new Promise((resolve, reject) => {
